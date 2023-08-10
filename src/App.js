@@ -1,5 +1,7 @@
 import './App.css';
-import Parent2 from './components/Optimisation/Parent2';
+import ParentFour from './components/Incorrect Optimisation/ParentFour';
+// import ParentThree from './components/Incorrect Optimisation/ParentThree';
+// import Parent2 from './components/Optimisation/Parent2';
 // import { GrandParent } from './components/Optimisation/GrandParent';
 // import Parent from './components/Parent Child/Parent';
 // import { ArrayUseState } from './components/Immutable State/ArrayUseState';
@@ -16,7 +18,9 @@ function App() {
       {/* <ArrayUseState /> */}
       {/* <Parent /> */}
       {/* <GrandParent /> */}
-      <Parent2 />
+      {/* <Parent2 /> */}
+      {/* <ParentThree /> */}
+      <ParentFour />
     </div>
   );
 }
