@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const ChildFive = ({name, handleClick}) => {
+export const ChildFive = ({name, person, handleClick}) => {
     console.log('ChildFive Render')
   return (
     <div>
-        Hello {name}
+        Hello {name} 
     </div>
   )
 }
